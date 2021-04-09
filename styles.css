@@ -3,7 +3,7 @@
     display:inline-block;
     
     width: 1900px;
-    color: rgb(255, 255, 255);
+    color: green;
     font-size: 150px;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 25px;
@@ -34,7 +34,7 @@ body {
   
 #timer {
   margin-top:250px;
-  color: white;
+  color: green;
   font-size: 100px;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
