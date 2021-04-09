@@ -1,0 +1,45 @@
+.tester {
+    text-align:center;
+    display:inline-block;
+    
+    width: 1900px;
+    color: green;
+    font-size: 150px;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 25px;
+}
+
+body {
+    background-color: black;
+}
+
+
+#cursor {
+    background: green;
+    line-height: 150px;
+    margin-left: -250px;
+    margin-top:20px;
+    -webkit-animation: blink 0.8s infinite;
+    width: 7px;
+    height: 130px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  @-webkit-keyframes blink {
+    0% {background: black}
+    50% {background: green}
+    100% {background: black}
+  }
+  
+#timer {
+  margin-top:250px;
+  color: green;
+  font-size: 100px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+} 
+
+
+
+
