@@ -1,8 +1,8 @@
 .tester {
-    text-align:center;
-    display:inline-block;
+  text-align:center;
+  display:inline-block;
     
-    width: 1900px;
+    width: 100%;
     color: green;
     font-size: 150px;
     font-family: "Courier New", Courier, monospace;
@@ -14,10 +14,10 @@ body {
 }
 
 
-#cursor {
+/*#cursor {
     background: green;
     line-height: 150px;
-    margin-left: -250px;
+
     margin-top:20px;
     -webkit-animation: blink 0.8s infinite;
     width: 7px;
@@ -31,7 +31,7 @@ body {
     50% {background: green}
     100% {background: black}
   }
-  
+  */
 #timer {
   margin-top:250px;
   color: green;
