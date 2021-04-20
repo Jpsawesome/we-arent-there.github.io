@@ -10,17 +10,70 @@
 }
 
 body {
-    background-color: black;
+    background-color: whitesmoke;
 }
 
-#timer {
+/*#timer {
   margin-top:250px;
   color: green;
   font-size: 100px;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
-} 
+} */
 
+#day2p {
+  color: rgb(49, 110, 49);
+  text-align: center;
+  font-size: 125px;
+  font-family: "Courier New", Courier, monospace;
+  
+}
 
+#head1 {
+  font-size: 75px;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+#redbullLogo1 {
+  border: 10px solid rgb(49, 110, 49);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+#redbullLogo2 {
+  border:10px solid rgb(49, 110, 49);
+  width:300px;
+}
+
+#redbullLogo3 {
+  border:10px solid rgb(49, 110, 49);
+  width:1000px;
+}
+
+#redbullLogo4 {
+  border:10px solid rgb(49, 110, 49);
+  width:800px;
+}
+
+#redbullp {
+  text-align: center;
+  margin-left:10%;
+  margin-right:10%;
+  width: 80%;
+  letter-spacing: 1px;
+  line-height: 80px;
+  font-size: 30px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#instruction1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(49, 110, 49);
+  text-align: bottom;
+  margin-top: 2%;
+  font-size:11px;
+}

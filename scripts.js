@@ -1,4 +1,4 @@
-var countDownDate = new Date("April 20, 2021, 16:20:00").getTime();
+/*var countDownDate = new Date("April 20, 2021, 16:20:00").getTime();
             var x = setInterval(function(){
                 var now = new Date().getTime();
                 var distance = countDownDate - now;
@@ -21,3 +21,4 @@ var tcountDownDate = new Date("April 20, 2021, 16:20:00").getTime();
 
                 document.getElementById("ttimer").innerHTML = tdays + ":" + thours + ":" + tminutes + ":" + tseconds;
             }, 1000);
+            */
