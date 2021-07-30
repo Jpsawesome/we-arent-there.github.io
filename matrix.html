@@ -14,7 +14,7 @@
 <body>
     
     <p id="youArentSafe">
-        <img onclick="good(), setTimeout(spoopy1, 6000), setTimeout(spoopy3, 10000), setTimeout(spoopy2, 30000)" width="65%" height="65%" src="https://i.ytimg.com/vi/r4SzsVKM-OM/sddefault.jpg"></img>
+        <img onclick="good(), setTimeout(spoopy1, 6000), setTimeout(spoopy3Button, 10000), setTimeout(spoopy2, 30000)" width="65%" height="65%" src="https://i.ytimg.com/vi/r4SzsVKM-OM/sddefault.jpg"></img>
     </p>
 
 
@@ -44,9 +44,18 @@
             alert("If we can't live in peace, then let us die in peace.");
         }
 
-        function spoopy3() {
+        function spoopy3Button() {
+            let spoopBtn = document.createElement("button");
+            spoopBtn.innerHTML = "Not Much Time";
+            document.body.appendChild(spoopBtn);
+            spoopBtn.onclick = function spoopy3Effect() {
             window.location.replace("http://deepdigitalreality.co/pqpwo");
         }
+        }
+
+        //spoopBtn.onclick = function spoopy3Effect() {
+          //  window.location.replace("http://deepdigitalreality.co/pqpwo");
+        //}
 
         function spoopy4() {
             
