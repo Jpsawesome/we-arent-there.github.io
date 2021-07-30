@@ -6,10 +6,15 @@
     <title id="run">Things Aren't As They Seem...</title>
 
 </head>
+
+
+
+
+
 <body>
     
     <p id="youArentSafe">
-        <img onclick="good()" width="65%" height="65%" src="https://i.ytimg.com/vi/r4SzsVKM-OM/sddefault.jpg"></img>
+        <img onclick="good(), setTimeout(spoopy1, 6000), setTimeout(spoopy2, 30000)" width="65%" height="65%" src="https://i.ytimg.com/vi/r4SzsVKM-OM/sddefault.jpg"></img>
     </p>
 
 
@@ -17,7 +22,7 @@
 
 
     <style>
-
+        
         body {
             background-color:#2C2F33;
         }
@@ -30,11 +35,32 @@
 
     <script>
 
+        setTimeout(window.location.replace("http://deepdigitalreality.co/pqpwo"), 10000);
+        
+        function spoopy1() {
+            alert("We Are Watching.");
+        }
+
+        function spoopy2() {
+            alert("If we can't live in peace, then let us die in peace.");
+        }
+
+        function spoopy3() {
+            
+        }
+
+        function spoopy4() {
+            
+        }
+
+
+
         function good(){
-            alert("Help.");
+            alert("help");
         }
 
     </script>
+
 </body>
 
 </html>
